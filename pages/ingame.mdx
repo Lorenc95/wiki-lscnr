@@ -12,7 +12,7 @@ This server is **streamer friendly**. Your behavior must follow **Twitch** and *
 
 - **No RDM** — do not attack or kill people without a valid reason. **See the RDM section for valid-kill situations** (red-name bounties, initiation, redzones/airdrop, active robbery scenes).
 - **No cheating or exploits** — including bugs, unintended mechanics, and unfair third-party tools.  
-- **No emoting** during fights or chases.  
+- **No emoting** during fights or chases. No emotes during events unless staff explicitly allow it for that event.  
 - **No combat logging** — do not leave or kill yourself to escape consequences.  
 - **No teaming** across sides (see the teaming section). Cops and criminals do not work together, with **one narrow exception** for police transport.  
 - **No kill feeding** — do not give free kills to friends to dodge bounties, stats, or outcomes.  
@@ -69,7 +69,7 @@ Some players are not technically breaking a specific rule but still **drag the s
 
 **This includes (but is not limited to):**
 
-- **Constant yapping** — nonstop mic spam, talking over everyone, refusing to shut up when asked, dominating voice in a disruptive way
+- **Constant yapping** — nonstop chat spam, flooding global/local chat, refusing to stop when asked, dominating the chat in a disruptive way
 - **Constant harassment** — repeatedly targeting the same player(s), even in "low-level" ways that add up
 - **Constant drama** — stirring fights between players, staff, or communities every session
 - **Energy draining behavior** — being the player who is *always* the reason a tense ticket exists, even if no single incident is a hard ban
@@ -118,20 +118,26 @@ You may **not** attack or kill players **without a valid in-game reason**.
 
 The following situations are **valid kill reasons** — you do not need any extra justification beyond the situation itself:
 
-- **Red-name bounty** — you approach a player who has a **red name** and an **active bounty**. The bounty *is* the reason. You do not need to wait to be shot at first.
+- **Red-name bounty** — you approach a player who has a **red name** and an **active bounty**. The bounty *is* the reason. You do not need to wait to be shot at first. **This works both ways:** a red-name bountied player may also **shoot first or defend themselves** against anyone approaching them — the bounty alone is sufficient justification for them too. No further initiation is needed from either side.
 - **They initiated** — the other player **shot at you, drew on you, rammed you, or clearly provoked** the fight (verbal threats with weapon out, aiming at you, etc.). Returning fire is not RDM.
 - **Redzone or airdrop zone** — you are inside a **redzone** or the **airdrop zone**. These areas are **PvP-enabled by design**; engaging anyone inside is fair play.
 - **Active robbery scene** — you **enter an active robbery scene** (store, bank, jewelry, ongoing heist, etc.). Anyone present is part of the situation. Crims defending a robbery and cops responding to it are both engaging fairly. Bystanders who walk into the middle of an active scene also accept that risk.
 
 ### It IS RDM when:
 
-- You shoot a green-name player with **no bounty, no initiation, no redzone, and no active scene** justifying it
+- You shoot a white-name player with **no bounty, no initiation, no redzone, and no active scene** justifying it
 - You kill someone purely because they "looked at you" or "rolled up" without any of the above triggers
 - You "third-party" outside the contexts above just to farm a kill
+- **Revenge killing** — you got killed in a valid situation (bounty, redzone, active scene, etc.) and then go hunt that player down **after** the situation ended. The fight is over when the fight is over. If they are no longer red-name/bountied, no longer in the redzone, and no longer part of an active scene, **shooting them again is RDM.**
 
 ### Notes
 
 - **Red name without a bounty** alone is not a free pass — the bounty and red name together signal the target. If in doubt, check.
+- **Initiation expires.** Being shot at once does not give you a permanent license to hunt that player. Initiation status ends when **any** of the following happens:
+  - The initiator **dies** (yours or theirs — the fight resolved).
+  - The initiator **claims revenge / returns fire and dies to you** — at that point the score is even and the situation is closed. Going back for a third round on the same player is **revenge killing, not initiation.**
+  
+  After any of these, you are back to needing a **fresh** valid reason (new bounty, new redzone entry, new scene, new initiation) to engage that player again.
 - Redzones and the airdrop zone do **not** override other rules (no cheating, no exploits, no spawn-killing the revive screen, no teaming with the other side).
 - If you are unsure what counts as valid for an edge case, ask staff or read mode-specific guidance on Discord/wiki when available.
 
@@ -210,7 +216,9 @@ Do not unfairly force **wanted level** onto other players.
 
 ## Emotes
 
-**No emotes** during **fights** or **chases**.
+**No emotes** during **fights** or **chases**. **No exceptions.**
+
+**No emotes during events** unless **explicitly allowed by staff** for that specific event.
 
 ---
 
@@ -218,13 +226,43 @@ Do not unfairly force **wanted level** onto other players.
 
 Do not abuse cover so **bullets pass through walls** in ways that are not fair normal gameplay.
 
+### What is NOT ghost peeking
+
+Some vehicles have **asymmetric collision** — for example, a car where the player can shoot **out** the back window, but bullets cannot pass **through** that same window going **in**. This is **not ghost peeking** and is **not a punishable offense** for the driver.
+
+It is a known quirk of GTA vehicle collision, not an exploit. **Adjust your gameplay** — flank, reposition, shoot the tires, force them out of the vehicle, or disengage. Reporting this as ghost peeking will be denied.
+
+Ghost peeking is specifically about **abusing wall/cover geometry on foot** (or otherwise) so your bullets clip through solid surfaces in ways the engine was not meant to allow.
+
 ---
 
 ## Safe zones
 
 Marked safe areas (hospitals, spawns, other marked spots) are **no-combat zones**.
 
-**Not allowed:**
+### How to identify a safe zone
+
+Safe zones are shown in-game as **large green circles** on the map and world, with a clear **on-screen indicator** confirming when you are inside one. If you do not see the indicator, you are **not** protected — assume you are in a normal combat zone.
+
+### Entry delay — 10 seconds
+
+Safe zone protection **does not apply instantly**. There is a **~10 second delay** when entering a safe zone before protection kicks in. This is intentional:
+
+- You **cannot** sprint into a safe zone mid-fight and expect immediate protection.
+- Players engaging you can still legally hit you during that ~10s window.
+- The on-screen indicator will reflect when protection is actually active.
+
+**Do not "safe-zone bait"** — running for the green circle to escape a fair fight you started or were losing is **abuse of mechanics** and can be treated as combat logging or exploit behavior.
+
+### Wanted players are NOT protected
+
+Safe zones **do not apply to wanted players**. If you have an active wanted level:
+
+- **Cops can engage and arrest you inside a safe zone.**
+- You cannot use a safe zone to wait out your wanted level or escape pursuit.
+- Other players cannot RDM you inside a safe zone for being wanted, but **cops doing their job is not RDM** — they are responding to your wanted status.
+
+### Not allowed inside safe zones (for everyone else)
 
 - killing  
 - baiting fights  
@@ -280,6 +318,21 @@ We **recommend a delay** on your stream so viewers cannot “play along” in re
 If you find a bug: **do not farm it.** Collect proof and report it.
 
 **Repeat abuse** of known bugs can lead to **stronger punishments**.
+
+### Hiding bugs for personal gain
+
+Finding a bug and **intentionally not reporting it because it benefits you** is treated as exploit abuse.
+
+This includes:
+
+- Sitting on a money/item duplication bug and quietly using it
+- Knowing about a movement, combat, or job exploit and continuing to use it instead of reporting
+- Sharing a bug privately with friends so the group can farm it before staff find out
+- "Forgetting" to report something convenient
+
+**Consequence:** **ban + account reset.** Any progress, items, or money gained while concealing the bug will be wiped. Staff will not "let it slide" because you eventually came clean *after* benefiting.
+
+If in doubt: **report it the moment you notice it.** Reporting a bug never gets you punished. Hiding one does.
 
 ---
 
