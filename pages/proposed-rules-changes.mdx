@@ -60,10 +60,10 @@ Staff can make exceptions with management approval. Rules can and do change — 
 | **Active robbery scene** | Any robbery in progress — store robbery, bank robbery, jewelry heist, or any other robbery job. Anyone present during an active robbery is a valid target. |
 | **Red-name / 5-star** | A player with a 5-star wanted level whose name appears red. These players are kill-on-sight for all players. |
 | **Bounty** | A scripted contract placed on a player. A player with an active bounty and a red name is KOS. |
-| **Most Wanted** | The single player currently holding the highest active bounty on the server. Their name and blip appear **dark red**. Only one player holds this status at a time. |
+| **Most Wanted** | The single player currently holding the highest active bounty on the server, automatically elevated to a 6-star wanted level. Their name and blip appear **dark red**. Only one player holds this status at a time. They are KOS for all players. |
 | **Hit** | A player-placed contract targeting a specific player. Placing a hit requires a valid reason (initiation, revenge, etc.). The hit amount is shown on the target's screen and displayed behind their name and on the scoreboard. At **450,000 and above**, the target's name and blip turn **bright blue** and they become publicly trackable on the map. At any amount, the target is KOS for all non-job players. Placing a hit without a valid reason is treated as RDM. |
 | **Bounty hunter** | A player whose job it is to track and kill players with active bounties or hits. |
-| **Wanted level / Stars** | A scripted mechanic reflecting a player's criminal activity. At 5 stars the player's name turns red and they become KOS. |
+| **Wanted level / Stars** | A scripted mechanic reflecting a player's criminal activity. At 5 stars the player's name turns red and they become KOS. At 6 stars the player becomes the Most Wanted player — dark red name and blip, one player at a time. |
 | **Combat logging** | Disconnecting from the server, or killing yourself, to avoid a negative in-game consequence. |
 | **Safe zone** | A marked no-combat area (hospitals, spawns, and other designated spots) shown as a green circle on the map. |
 | **Kill feeding** | Intentionally allowing another player to kill you to manipulate bounties, pad stats, or avoid a consequence. |
@@ -91,9 +91,9 @@ The following situations are valid reasons to kill another player. No additional
 Any player with a 5-star wanted level and a red name is kill-on-sight for all players. No initiation is required from either side.
 
 **Most Wanted**
-The Most Wanted player is the single player currently holding the highest active bounty on the server. Their name and blip appear **dark red**. Only one player holds this status at a time, and they are KOS for all players — no initiation required.
+The Most Wanted player is the single player currently holding the highest active bounty on the server. When a player reaches this status they are automatically elevated to a **6-star wanted level**, and their name and blip turn **dark red**. Only one player holds this status at a time. They are KOS for all players — no initiation required.
 
-If you are the Most Wanted player, you have the same self-defense rights as a red-name bounty player. You may kill any player visibly approaching you with clear hostile intent. A player who happens to be nearby without showing hostile intent is not a valid target.
+If you are the Most Wanted player, you have the same self-defense rights as any other player, plus the right to pre-fire any player visibly approaching you with clear hostile intent. A player who happens to be nearby without showing hostile intent is not a valid target.
 
 Players who do not want to be engaged should keep their distance from anyone marked with a dark red name and blip.
 
@@ -107,7 +107,7 @@ Hit visibility is tiered:
 
 You must have a valid reason (initiation, revenge, or another reason listed in these rules) to place a hit on someone. Placing a hit without a valid reason is treated as RDM, regardless of who carries it out.
 
-If you have an active hit on you at any tier, you have the same self-defense rights as a red-name bounty player. You may kill any player visibly approaching you with clear hostile intent. A player who happens to be nearby without showing hostile intent is not a valid target.
+If you have an active hit on you at any tier, you have the same self-defense rights as any other player, plus the right to pre-fire any player visibly approaching you with clear hostile intent. A player who happens to be nearby without showing hostile intent is not a valid target.
 
 **Initiation**
 A player initiates on you when they do any of the following:
@@ -131,13 +131,13 @@ After initiation expires you need a fresh valid reason to engage that player aga
 If you are inside a marked redzone or the active airdrop zone, you may engage any player occupying it. If a target leaves the redzone, you may not chase them out of it with the intent to kill unless you have a separate valid reason to do so.
 
 **Active robbery scenes**
-During any robbery in progress — store, bank, jewelry heist, or any other robbery job — all players present at the scene are valid targets. This applies whether or not police are online or responding. Criminals defending the robbery and any players who arrive at the scene are engaging on their own terms. Bystanders who enter an active scene accept the risk of being engaged.
+During any robbery in progress — store, bank, jewelry heist, or any other robbery job — all players physically inside the robbery location are valid targets. This applies whether or not police are online or responding. Criminals defending the robbery and any players who enter the building or location do so on their own terms. Bystanders in the surrounding area who are not inside the active location are not automatically valid targets — but if they enter the scene, they accept the risk.
 
 ### b. Revenge
 
 Being attacked, killed, arrested, or having your property taken or stolen gives you the right to kill the responsible player once within the same game session. This includes failed attempts. If you are attacked again your right to revenge is reinstated.
 
-This applies to tow drivers as well — having your vehicle towed counts as having your property taken, regardless of whether it was done as part of a job.
+This applies to tow drivers as well — beginning to tow your vehicle counts as initiation (see Rule 2d), which gives you the right to retaliate and satisfies the property taken condition for revenge.
 
 When both players kill each other simultaneously (a trade), revenge is not considered satisfied and both players may seek it.
 
@@ -335,9 +335,9 @@ Marked safe zones — hospitals, spawns, and other designated spots — are no-c
 
 Safe zone protection does not apply instantly. There is a **~10 second delay** after entering a safe zone before protection activates. You cannot sprint into a safe zone mid-fight and expect immediate protection. Players engaging you may legally continue to do so during that window.
 
-### Wanted players
+### Wanted players and hit targets
 
-Safe zones do not protect players with an active wanted level. Cops may engage and arrest wanted players inside a safe zone. Other players may not RDM a wanted player inside a safe zone — but cops performing their duties are not committing RDM.
+Safe zones do not protect players with an active wanted level or an active hit contract. Cops may engage and arrest wanted players inside a safe zone. Any player with a hit on them remains a valid target inside a safe zone, consistent with how bounty and wanted players are treated. Other players may not RDM an unrelated player inside a safe zone — but engaging a wanted or hit player is not RDM.
 
 ### Not allowed inside safe zones
 
