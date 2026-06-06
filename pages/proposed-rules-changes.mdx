@@ -57,21 +57,22 @@ Staff can make exceptions with management approval. Rules can and do change — 
 | **Initiation** | A hostile act by a player that gives the targeted player the right to retaliate. See Rule 1 for what counts as initiation. |
 | **Redzone** | A marked area on the map where PvP is enabled by design. Engaging any player inside a redzone is valid. |
 | **Airdrop zone** | The marked zone around an active airdrop event. PvP is enabled inside it for the duration of the event. |
-| **Active robbery scene** | Any scripted robbery in progress — store robbery, bank robbery, jewelry heist, or any other scripted heist job. Anyone present during an active robbery is a valid target. |
+| **Active robbery scene** | Any robbery in progress — store robbery, bank robbery, jewelry heist, or any other robbery job. Anyone present during an active robbery is a valid target. |
 | **Red-name / 5-star** | A player with a 5-star wanted level whose name appears red. These players are kill-on-sight for all players. |
 | **Bounty** | A scripted contract placed on a player. A player with an active bounty and a red name is KOS. |
-| **Hit** | A player-placed contract targeting a specific player. Placing a hit requires a valid reason (initiation, revenge, etc.). Once active, the target is KOS for all unemployed players, the same as a bounty. Placing a hit without a valid reason is treated as RDM. |
+| **Most Wanted** | The single player currently holding the highest active bounty on the server. Their name and blip appear **dark red**. Only one player holds this status at a time. |
+| **Hit** | A player-placed contract targeting a specific player. Placing a hit requires a valid reason (initiation, revenge, etc.). The hit amount is shown on the target's screen and displayed behind their name and on the scoreboard. At **450,000 and above**, the target's name and blip turn **bright blue** and they become publicly trackable on the map. At any amount, the target is KOS for all non-job players. Placing a hit without a valid reason is treated as RDM. |
 | **Bounty hunter** | A player whose job it is to track and kill players with active bounties or hits. |
 | **Wanted level / Stars** | A scripted mechanic reflecting a player's criminal activity. At 5 stars the player's name turns red and they become KOS. |
 | **Combat logging** | Disconnecting from the server, or killing yourself, to avoid a negative in-game consequence. |
 | **Safe zone** | A marked no-combat area (hospitals, spawns, and other designated spots) shown as a green circle on the map. |
-| **Kill feeding** | Intentionally allowing another player to kill you to manipulate bounties, stats, or outcomes. |
+| **Kill feeding** | Intentionally allowing another player to kill you to manipulate bounties, pad stats, or avoid a consequence. |
 | **Teaming** | Working with or assisting the opposing side to gain an advantage. |
 | **Exploit** | Using a bug, glitch, or unintended mechanic to gain an unfair advantage. |
 | **Meta gaming** | Using information obtained outside the game (Discord, streams, calls) to gain an in-game advantage over players who do not have access to that information. |
 | **Combat / In combat** | You are considered in combat if you were involved in a fight or chase within the last 3 minutes. |
-| **Store robbery** | A scripted robbery of a convenience store or similar small business. |
-| **Bank robbery** | A scripted robbery of a bank. Counts as an active robbery scene. |
+| **Store robbery** | A robbery of a convenience store or similar small business. |
+| **Bank robbery** | A robbery of a bank. Counts as an active robbery scene. |
 | **Tow driver** | A player on the tow job. Tow drivers are neutral civilians and cannot be attacked unless they initiate or begin towing your vehicle. |
 | **Staff** | Any member of the LSCnR staff team, including moderators, developers, and admins. |
 | **Alt account** | A secondary account used by a player who already has a registered account on the platform. |
@@ -86,11 +87,27 @@ Attacking or killing another player without a valid reason, defined here as RDM,
 
 The following situations are valid reasons to kill another player. No additional justification is needed beyond the situation itself:
 
-**Red-name (5-star wanted level)**
+**Red-name bounty (5-star wanted level)**
 Any player with a 5-star wanted level and a red name is kill-on-sight for all players. No initiation is required from either side.
 
+**Most Wanted**
+The Most Wanted player is the single player currently holding the highest active bounty on the server. Their name and blip appear **dark red**. Only one player holds this status at a time, and they are KOS for all players — no initiation required.
+
+If you are the Most Wanted player, you have the same self-defense rights as a red-name bounty player. You may kill any player visibly approaching you with clear hostile intent. A player who happens to be nearby without showing hostile intent is not a valid target.
+
+Players who do not want to be engaged should keep their distance from anyone marked with a dark red name and blip.
+
 **Active hit contract**
-If a hit contract has been placed on a player, that player is KOS for all unemployed players — the same rules as a bounty. You must have a valid reason (initiation, revenge, or another reason listed in these rules) to place a hit on someone. Placing a hit without a valid reason is treated as RDM, regardless of who carries it out.
+If a hit contract has been placed on a player, that player is KOS for all players not currently working as a cop, paramedic, or tow driver — regardless of the hit amount.
+
+Hit visibility is tiered:
+
+- **Under 450,000** — the hit amount is shown on the target's screen and displayed behind their name in the world and on the scoreboard. There is no map blip. Players can only identify the target on sight.
+- **450,000 and above** — everything above applies, and additionally the target's name and blip turn **bright blue**, making them trackable on the map by the entire server.
+
+You must have a valid reason (initiation, revenge, or another reason listed in these rules) to place a hit on someone. Placing a hit without a valid reason is treated as RDM, regardless of who carries it out.
+
+If you have an active hit on you at any tier, you have the same self-defense rights as a red-name bounty player. You may kill any player visibly approaching you with clear hostile intent. A player who happens to be nearby without showing hostile intent is not a valid target.
 
 **Initiation**
 A player initiates on you when they do any of the following:
@@ -114,11 +131,13 @@ After initiation expires you need a fresh valid reason to engage that player aga
 If you are inside a marked redzone or the active airdrop zone, you may engage any player occupying it. If a target leaves the redzone, you may not chase them out of it with the intent to kill unless you have a separate valid reason to do so.
 
 **Active robbery scenes**
-During any active scripted robbery — store, bank, jewelry, or any other scripted heist job — all players present are valid targets. Criminals defending the robbery and cops responding to it are both engaging fairly. Bystanders who enter an active scene accept the risk of being engaged.
+During any robbery in progress — store, bank, jewelry heist, or any other robbery job — all players present at the scene are valid targets. This applies whether or not police are online or responding. Criminals defending the robbery and any players who arrive at the scene are engaging on their own terms. Bystanders who enter an active scene accept the risk of being engaged.
 
 ### b. Revenge
 
-Being attacked, killed, arrested, or having your property damaged or stolen gives you the right to kill the responsible player once within the same game session. This includes failed attempts. If you are attacked again your right to revenge is reinstated.
+Being attacked, killed, arrested, or having your property taken or stolen gives you the right to kill the responsible player once within the same game session. This includes failed attempts. If you are attacked again your right to revenge is reinstated.
+
+This applies to tow drivers as well — having your vehicle towed counts as having your property taken, regardless of whether it was done as part of a job.
 
 When both players kill each other simultaneously (a trade), revenge is not considered satisfied and both players may seek it.
 
